@@ -18,9 +18,9 @@ STANDARD = {"propext", "Classical.choice", "Quot.sound"}
 
 # (statement in the paper, fully qualified Lean name)
 DECLARATIONS = [
-    ("Theorem B", "IsingScaling.ModelPackets.isotropic_of_site_forms"),
-    ("Theorem B", "IsingScaling.ModelPackets.exists_isotropic_of_site_forms"),
-    ("Theorem B'", "IsingScaling.AbstractKernel.raw_angular"),
+    ("Theorem B(i)", "IsingScaling.ModelPackets.isotropic_of_site_forms"),
+    ("Theorem B(i)", "IsingScaling.ModelPackets.exists_isotropic_of_site_forms"),
+    ("Theorem B(ii)", "IsingScaling.AbstractKernel.raw_angular"),
     ("Corollary 2.2", "IsingScaling.Packet.gridPacket_spectrum_of_site_reflection"),
     ("Proposition 2.7", "IsingScaling.RawLatticeOscillation.localOscillation_of_site_bond"),
     ("Section 5", "IsingScaling.Packet.ParitySmoothing.normalizedPacketSource"),

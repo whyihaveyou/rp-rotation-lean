@@ -3,13 +3,13 @@
 This repository contains the Lean 4 formalization accompanying the paper
 *Universal rotational invariance of two-point functions in cubic lattice models: Ising, Potts and O(N)*.
 
-The central result (Theorem B of the paper) is an abstract theorem: if
+The central result (Theorem B(i) of the paper) is an abstract theorem: if
 `g : ℤ³ → ℝ` is nonnegative, invariant under the 48 signed permutations,
 positive definite, and reflection positive for the two site mirrors
 `x₁ = 0` and `x₁ = x₂`, then every susceptibility-normalized vague limit of
 `χ_R⁻¹ ∑ₓ g(x) δ_{x/R}` is invariant under `O(3)`, with an atom at the origin
 and a continuous radial density elsewhere. Adding reflection positivity across
-the bond plane `x₁ = 1/2` gives the lattice-point version (Theorem B′). The
+the bond plane `x₁ = 1/2` gives the lattice-point version (Theorem B(ii)). The
 Ising, Potts/random-cluster, XY, Heisenberg and general `O(N)` two-point
 functions are instances.
 
@@ -37,8 +37,8 @@ All declarations are in the namespace `IsingScaling`.
 
 | Paper | Lean declaration | Module |
 |---|---|---|
-| Theorem B | `ModelPackets.isotropic_of_site_forms`, `ModelPackets.exists_isotropic_of_site_forms` | `ModelPacketPhysicalRotation` |
-| Theorem B′ | `AbstractKernel.raw_angular` | `AbstractKernelPointwise` |
+| Theorem B(i) | `ModelPackets.isotropic_of_site_forms`, `ModelPackets.exists_isotropic_of_site_forms` | `ModelPacketPhysicalRotation` |
+| Theorem B(ii) | `AbstractKernel.raw_angular` | `AbstractKernelPointwise` |
 | Corollary 2.2 | `Packet.gridPacket_spectrum_of_site_reflection` | `ReflectedLatticePacket` |
 | Proposition 2.7 | `RawLatticeOscillation.localOscillation_of_site_bond` | `RawLatticeOscillation` |
 | Section 5 | `Packet.ParitySmoothing.normalizedPacketSource`, `Packet.ParitySmoothing.localOscillation_of_site_forms` | `RotorPacketParitySmoothing`, `ModelPacketSmoothedOscillation` |
