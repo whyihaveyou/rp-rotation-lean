@@ -1,0 +1,11 @@
+{
+  "title": "Lean formalization of: Universal rotational invariance of two-point functions in cubic lattice models: Ising, Potts and O(N)",
+  "upload_type": "software",
+  "description": "Lean 4 / Mathlib formalization accompanying the paper. It contains the abstract theorem on reflection-positive kernels on Z^3 (rotational invariance of susceptibility-normalized two-point tangents) and its applications to the Ising, Potts/random-cluster, XY, Heisenberg and O(N) models. Build with `lake exe cache get && lake build`; check with `python3 scripts/check_paper_statements.py`.",
+  "creators": [
+    {"name": "Qiu, Zhongpu", "affiliation": "Beijing Normal University; Shanghai Artificial Intelligence Laboratory"}
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": ["Lean 4", "Mathlib", "reflection positivity", "rotational invariance", "Ising model", "Potts model", "O(N) model"],
+  "version": "1.0.0"
+}

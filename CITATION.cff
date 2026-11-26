@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this formalization, please cite it as below."
+title: "Lean formalization of: Universal rotational invariance of two-point functions in cubic lattice models: Ising, Potts and O(N)"
+authors:
+  - family-names: Qiu
+    given-names: Zhongpu
+    affiliation: "Beijing Normal University; Shanghai Artificial Intelligence Laboratory"
+    email: slszqzp@outlook.com
+version: 1.0.0
+date-released: 2026-11-26
+license: CC-BY-4.0
+repository-code: "https://github.com/whyihaveyou/rp-rotation-lean"
+keywords:
+  - Lean 4
+  - Mathlib
+  - reflection positivity
+  - rotational invariance
+  - Ising model
+  - Potts model
+  - O(N) model

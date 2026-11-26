@@ -60,3 +60,9 @@ this limit with the fixed-boundary state (Proposition 6.9 of the paper) is
 proved in the paper. The lattice-point statement of Appendix B is formalized on
 `(2ℤ)³`, and on `ℤ³` under the additional hypothesis that the bond-centred
 rectangles have the same limit.
+
+## License and citation
+
+The code is released under the Creative Commons Attribution 4.0 International
+license (`LICENSE`). Citation metadata are in `CITATION.cff`; archived releases
+receive a DOI through Zenodo.
