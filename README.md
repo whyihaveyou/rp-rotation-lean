@@ -1,5 +1,7 @@
 # Universal rotational invariance of two-point functions in cubic lattice models — Lean formalization
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24557203.svg)](https://doi.org/10.5281/zenodo.24557203)
+
 This repository contains the Lean 4 formalization accompanying the paper
 *Universal rotational invariance of two-point functions in cubic lattice models: Ising, Potts and O(N)*.
 
@@ -64,5 +66,6 @@ rectangles have the same limit.
 ## License and citation
 
 The code is released under the Creative Commons Attribution 4.0 International
-license (`LICENSE`). Citation metadata are in `CITATION.cff`; archived releases
-receive a DOI through Zenodo.
+license (`LICENSE`). Citation metadata are in `CITATION.cff`; version 1.0.0 is archived at Zenodo,
+[doi:10.5281/zenodo.24557203](https://doi.org/10.5281/zenodo.24557203)
+(all versions: [doi:10.5281/zenodo.24557202](https://doi.org/10.5281/zenodo.24557202)).

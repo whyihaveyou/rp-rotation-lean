@@ -9,6 +9,7 @@ authors:
 version: 1.0.0
 date-released: 2026-11-26
 license: CC-BY-4.0
+doi: 10.5281/zenodo.24557203
 repository-code: "https://github.com/whyihaveyou/rp-rotation-lean"
 keywords:
   - Lean 4
