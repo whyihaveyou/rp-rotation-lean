@@ -1,7 +1,7 @@
-# Reflection positivity and rotational invariance on Z³ — Lean formalization
+# Universal rotational invariance of two-point functions in cubic lattice models — Lean formalization
 
 This repository contains the Lean 4 formalization accompanying the paper
-*Reflection positivity and the rotational invariance of two-point tangents on ℤ³*.
+*Universal rotational invariance of two-point functions in cubic lattice models: Ising, Potts and O(N)*.
 
 The central result (Theorem B of the paper) is an abstract theorem: if
 `g : ℤ³ → ℝ` is nonnegative, invariant under the 48 signed permutations,
